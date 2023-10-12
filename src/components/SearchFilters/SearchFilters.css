@@ -1,0 +1,11 @@
+.accordion-button {
+  background: none !important;
+}
+
+.accordion-button:focus {
+  box-shadow: none !important;
+}
+
+.priceRange_form input[type=checkbox]{
+  margin-right: 0.8rem;
+}

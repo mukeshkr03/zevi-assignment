@@ -1,0 +1,97 @@
+.homescreen {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(
+      rgba(220, 189, 211, 0.3),
+      rgba(220, 189, 211, 0.3)
+    ),
+    url("https://imgv3.fotor.com/images/blog-cover-image/How-to-Take-Pictures-of-Clothes-to-Sell-Online-in-2023-Fotor-Blog.jpg")
+      center/cover no-repeat fixed;
+  display: flex;
+  justify-content: center;
+}
+
+.contents {
+    width: 50%;
+    margin-top: 2rem;
+}
+
+.trend-items{
+  border-radius : 10px
+}
+
+.home_input {
+    width: 100%;
+    padding: 0.8rem 1rem;
+    font-size: 1.2rem;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+  }
+
+.trend-items {
+    background: white;
+    width: 100%;
+    padding: 0.5rem 1rem;
+  }
+
+  @media screen and (max-width: 576px) {
+    .contents {
+      width: 70%;
+    }
+  }
+
+/* 
+  .home_screen {
+    width: 100%;
+    height: 100vh;
+    background: url("https://imgv3.fotor.com/images/blog-cover-image/How-to-Take-Pictures-of-Clothes-to-Sell-Online-in-2023-Fotor-Blog.jpg")
+      center/cover no-repeat fixed;
+    background: linear-gradient(
+        rgba(220, 189, 211, 0.3),
+        rgba(220, 189, 211, 0.3)
+      ),
+      url("https://imgv3.fotor.com/images/blog-cover-image/How-to-Take-Pictures-of-Clothes-to-Sell-Online-in-2023-Fotor-Blog.jpg")
+        center/cover no-repeat fixed;
+    display: flex;
+    justify-content: center;
+    /* opacity: 0.8;
+  }
+  
+  input {
+    width: 100%;
+    padding: 0.8rem 1rem;
+    font-size: 1.2rem;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+  }
+  
+  .home_image {
+    width: 9rem;
+    height: 9rem;
+    margin : 3px;
+  }
+  
+  .contents {
+    width: 50%;
+    margin-top: 2rem;
+  }
+  
+  .trend_items {
+      background: white;
+      width: 100%;
+      padding: 0.5rem 1rem;
+    }
+  
+    @media screen and (max-width: 576px) {
+      .contents {
+        width: 70%;
+      }
+    }
+  
+    .image_title{
+      font-size: 0.8rem;
+    } */
